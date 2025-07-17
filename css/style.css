@@ -867,6 +867,17 @@
 	    background-repeat: no-repeat;
 	    background-image: url(../images/icon/preloader.png);
 	}
+
+
+	/* ---- */
+	.contactpagebanner{
+background-image: url(../images/banner2.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 450px;
+margin: 40px;
+margin-bottom: 0;
+border-radius: 20px;	}
 	/*--------------------------------------------------------------
    Header
 --------------------------------------------------------------*/
