@@ -873,11 +873,14 @@
 	.contactpagebanner{
 background-image: url(../images/banner2.png);
 background-repeat: no-repeat;
+ background-position: center center;
 background-size: cover;
 height: 450px;
-margin: 40px;
+margin: 10px;
 margin-bottom: 0;
-border-radius: 20px;	}
+border-radius: 20px;
+  position: relative;
+  padding: 60px 0; 	}
 	/*--------------------------------------------------------------
    Header
 --------------------------------------------------------------*/
@@ -10855,7 +10858,7 @@ font-weight: 700;
 	
 	.wpcf7-form button[type="submit"] {
 	    font-weight: 500;
-	    color: #252525;
+	    color: #fff;
 	    text-align: center;
 	    display: inline-block;
 	    min-width: 170px;
