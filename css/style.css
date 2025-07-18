@@ -847,8 +847,89 @@
 	.gallery-columns-9 .gallery-caption {
 	    display: none;
 	}
-	/*** 
 
+
+	/* --------------- */
+	.innovative{
+font-size: 40px;
+text-align: center;
+	}
+.strengthpara{
+		margin-top: 50px !important;
+	}
+.whatwedoimg{
+margin-top: 40px;
+margin-bottom:40px ;
+	}
+
+
+.corevaluediv{
+margin-top: 50px;
+}
+.corevalue-mobileview{
+	display: none;
+}
+@media (max-width:991px) {
+	.corevalue-mobileview{
+	display: block;
+	margin-bottom: 20px;
+}
+.centertitle{
+display: none;
+
+}
+.aboutcard-col{
+	margin-top: 20px;
+}
+}
+	.core-value-card {
+    height: 250px;
+  border: none;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  gap: 20px;
+}
+
+.core-value-card .card-icon {
+  font-size: 50px;
+color: #165D31;
+  margin-bottom: 15px;
+}
+
+.core-value-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.2);
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.whatwedocontainer{
+	padding: 10px;
+}
+.whatwedopara , .Inspired{
+padding: 20px;
+}
+.strength-card{
+	margin-top: 10px;
+}
+.strength-card img{
+	border-radius: 5px;
+}
+
+	/*** 
+.
 ====================================================================
 	preloader
 ====================================================================
@@ -10540,7 +10621,6 @@ font-weight: 700;
 	
 	.about-company {
 	    padding: 70px 0 100px;
-	    /* background: url(../images/bg/h2-bg-1.jpg) center center no-repeat; */
 	    background-size: cover;
 	}
 	

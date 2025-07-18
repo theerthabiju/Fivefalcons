@@ -1,342 +1,559 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Five falcons</title>
     <!-- Stylesheets -->
     <!-- bootstrap v3.3.6 css -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- font-awesome css -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
     <!-- flaticon css -->
-    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet" />
     <!-- factoryplus-icons css -->
-    <link href="css/factoryplus-icons.css" rel="stylesheet">
+    <link href="css/factoryplus-icons.css" rel="stylesheet" />
     <!-- animate css -->
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" />
     <!-- owl.carousel css -->
-    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/owl.css" rel="stylesheet" />
     <!-- fancybox css -->
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet">
-    <link href="css/frontend.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet" />
+    <link href="css/hover.css" rel="stylesheet" />
+    <link href="css/frontend.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <!-- switcher css -->
-    <link href="css/switcher.css" rel="stylesheet">
-    <link rel='stylesheet' id='factoryhub-color-switcher-css' href='css/switcher/default.css' />
+    <link href="css/switcher.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      id="factoryhub-color-switcher-css"
+      href="css/switcher/default.css"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
     <!-- revolution slider css -->
-    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css">
-    <link rel="stylesheet" type="text/css" href="css/revolution/layers.css">
-    <link rel="stylesheet" type="text/css" href="css/revolution/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css" />
+    <link rel="stylesheet" type="text/css" href="css/revolution/layers.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/revolution/navigation.css"
+    />
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/responsive.css" rel="stylesheet">
-    
-</head>
-<style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <style>
 
 
-.contactpagebanner h1 {
-  margin: 0;
-  font-size: 36px;
-}
+    .contactpagebanner h1 {
+      margin: 0;
+      font-size: 36px;
+    }
 
-.contactpagebanner .breadcrumbs {
-  position: absolute;
-  bottom: 20px; 
-  left: 0;
-  width: 100%;
-}
+    .contactpagebanner .breadcrumbs {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+    }
 
-.contactpagebanner .breadcrumbs .container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+    .contactpagebanner .breadcrumbs .container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
 
+    .contactpagebanner .breadcrumbs a {
+      text-decoration: none;
+      color: #ffffff;
+    }
 
-.contactpagebanner .breadcrumbs a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.contactpagebanner .breadcrumbs i {
-  font-size: 12px;
-  color: #ffffff;
-}
-
-</style>
-<body class="home   header-sticky header-transparent header-v3 hide-topbar-mobile">
+    .contactpagebanner .breadcrumbs i {
+      font-size: 12px;
+      color: #ffffff;
+    }
+  </style>
+  <body
+    class="home header-sticky header-transparent header-v3 hide-topbar-mobile"
+  >
     <div id="page" class="hfeed site">
+      <!-- Preloader-->
+      <div class="preloader"></div>
 
-        <!-- Preloader-->
-        <div class="preloader"></div>
+      <!-- masthead -->
+      <div
+        id="mf-header-minimized"
+        class="mf-header-minimized mf-header-v3"
+      ></div>
+      <header id="masthead" class="site-header clearfix">
+        <div class="header-main">
+          <div class="container">
+            <div class="row menu-row">
+              <div class="site-logo col-md-9 col-sm-9 col-xs-9">
+                <a href="#" class="logo">
+                  <img src="images/ff.png" alt="Induscity" class="fflogo" />
+                </a>
+              </div>
+              <div class="site-menu hidden-md hidden-sm hidden-xs">
+                <nav id="site-navigation" class="main-nav primary-nav nav">
+                  <ul class="menu">
+                    <li class="active has-children">
+                      <a href="index.html" class="dropdown-toggle">Home</a>
+                    </li>
+                    <li class="has-children">
+                      <a href="about.html" class="dropdown-toggle">About</a>
+                    </li>
+                    <li class="has-children">
+                      <a href="service.html" class="dropdown-toggle"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="has-children">
+                      <a href="projects.html" class="dropdown-toggle"
+                        >Projects</a
+                      >
+                    </li>
 
-      
-
-        <!-- masthead -->
-        <div id="mf-header-minimized" class="mf-header-minimized mf-header-v3"></div>
-        <header id="masthead" class="site-header clearfix">
-            <div class="header-main">
-                <div class="container">
-                    <div class="row menu-row">
-                        <div class="site-logo col-md-9 col-sm-9 col-xs-9">
-                            <a href="#" class="logo">
-                                <img src="images/ff.png" alt="Induscity" class="fflogo">
-                            </a>
-                           
-                        </div>
-                        <div class="site-menu hidden-md hidden-sm hidden-xs">
-                            <nav id="site-navigation" class="main-nav primary-nav nav">
-								<ul class="menu">
-									<li class="active has-children"><a href="index.html" class="dropdown-toggle">Home</a>
-									
-									</li>
-									<li class="has-children"><a href="about.html" class="dropdown-toggle">About</a>
-								
-									</li>
-									<li class="has-children" ><a href="service.html" class="dropdown-toggle">Services</a>
-									
-									</li>
-									<li class="has-children" ><a href="projects.html" class="dropdown-toggle">Projects</a>
-										
-									</li>
-									
-									<li ><a href="contact.html">Contact</a></li>
-									<li class="extra-menu-item menu-item-search last-child">
-										<a href="#" class="toggle-search"><i class="fa fa-search" aria-hidden="true"></i></a>
-										<form class="search-form">
-											<input class="search-field" placeholder="Search..." value="" name="s" type="search">
-											<input class="search-submit" value="Search" type="submit">
-										</form>
-									</li>
-									<li id="mf-active-menu" class="mf-active-menu"></li>
-								</ul>
-                            </nav>
-                        </div>
-                        <div class="navbar-toggle col-md-3 col-sm-3 col-xs-3">
-                            <span id="mf-navbar-toggle" class="navbar-icon"><span class="navbars-line"></span></span>
-                        </div>
-                    </div>
-                </div>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="extra-menu-item menu-item-search last-child">
+                      <a href="#" class="toggle-search"
+                        ><i class="fa fa-search" aria-hidden="true"></i
+                      ></a>
+                      <form class="search-form">
+                        <input
+                          class="search-field"
+                          placeholder="Search..."
+                          value=""
+                          name="s"
+                          type="search"
+                        />
+                        <input
+                          class="search-submit"
+                          value="Search"
+                          type="submit"
+                        />
+                      </form>
+                    </li>
+                    <li id="mf-active-menu" class="mf-active-menu"></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="navbar-toggle col-md-3 col-sm-3 col-xs-3">
+                <span id="mf-navbar-toggle" class="navbar-icon"
+                  ><span class="navbars-line"></span
+                ></span>
+              </div>
             </div>
-        </header>
-        <!-- masthead end -->
+          </div>
+        </div>
+      </header>
+      <!-- masthead end -->
 
-        <!--Main Slider-->
-     <section class="contactpagebanner">
- 
-  <nav class="breadcrumbs">
-    <div class="container">
-      <a class="home" href="index.html"><span>Home</span></a>
-      <i class="fa fa-angle-right" aria-hidden="true"></i>
-      <span>About</span>
+      <!--Main Slider-->
+      <section class="contactpagebanner">
+        <nav class="breadcrumbs">
+          <div class="container">
+            <a class="home" href="index.html"><span>Home</span></a>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span>About</span>
+          </div>
+        </nav>
+      </section>
+
+      <!--Main Slider  end-->
+
+      <!-- About us-->
+      <section>
+        <div class="about-company">
+          <div class="container">
+            <div class="mf-section-title text-left dark large-size margbtm40">
+              <h2>Five Falcons Group</h2>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="aboutcoimg">
+                  <img src="images/subpage/aboutpage.png" alt="aboutusimg" />
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-8">
+                <div class="aboutcoinfo">
+                  <h3>
+                    Specialized fabrication, made to match your vision. And We
+                    provide specific solutions for our every customers.
+                  </h3>
+                  <p>
+                    Five Falcons Metal Industries Factory is a trusted leader in
+                    precision structural steel fabrication, delivering robust
+                    solutions from beams and mezzanine floors to shoring towers
+                    and equipment skids. We design and manufacture a wide range
+                    of fire protection systems, stainless steel handrails, and
+                    custom metal works tailored to diverse industrial,
+                    commercial, and residential needs. Our expertise extends to
+                    offshore baskets, access platforms, ducting systems, and
+                    specialized kitchen equipment, all built to exacting
+                    standards. With in-house capabilities for cutting, bending,
+                    welding, and finishing, we ensure each project meets
+                    stringent quality and safety requirements. At Five Falcons,
+                    our commitment is to deliver durable, functional, and
+                    aesthetic metal fabrication solutions that bring our
+                    clients’ designs to life.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About us end-->
+      <!-- what we do start -->
+      <section>
+        <div class="container whatwedocontainer">
+          <div class="row justify-content-center align-items-center mb-5">
+            <div class="mf-section-title text-center dark large-size margbtm40">
+              <h2 class="innovative">What We Do</h2>
+            </div>
+            <h3 class="text-center">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              Innovative Solutions Backed by Skilled Craftsmanship
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </h3>
+            <p class="text-justify whatwedopara">
+              At Five Falcons Metal Industries Factory, our mission goes beyond
+              simply meeting client expectations — we aim to exceed them through
+              precision engineering, innovative design, and unwavering
+              dedication. Backed by a team of highly skilled professionals and
+              advanced manufacturing capabilities, we deliver comprehensive
+              solutions tailored to each project’s unique demands. From
+              heavy-duty structural steel fabrication — including beams,
+              mezzanine floors, shoring towers, and offshore baskets — to
+              expertly crafted fire protection systems and stainless steel
+              handrails, we cover the full spectrum of industrial, commercial,
+              and residential metal works. Our expertise extends to custom metal
+              fabrication, ducting systems, access platforms, and specialized
+              kitchen equipment, ensuring every component is built to the
+              highest standards.
+            </p>
+          </div>
     </div>
-  </nav>
-</section>
 
-        <!--Main Slider  end-->
+    <!-- corevalue start -->
+     <div class="container corevaluediv">
+    <div class="row text-center whatwedoimg">
 
-     
-        <!-- About us-->
-         <section>
-       <div class="about-company">
-            <div class="container">
-                <div class="mf-section-title text-left dark large-size margbtm40 ">
-                    <h2>About Company</h2></div>
-                <div class="row ">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="aboutcoimg">
-                            <img src="images/subpage/aboutpage.png" alt="aboutusimg" >
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-8">
-                        <div class="aboutcoinfo">
-                            <h3>Specialized fabrication, made to match your vision.  And We provide specific solutions for our every customers.</h3>
-                            <p>Five Falcons Metal Industries Factory is a trusted leader in precision structural steel fabrication, delivering
-                                 robust solutions from beams and mezzanine floors to shoring towers and equipment skids. We design and manufacture 
-                                 a wide range of fire protection systems, stainless steel handrails, and custom metal works tailored to 
-                                diverse industrial, commercial, and residential needs. Our expertise extends to offshore baskets, access platforms,
-                                 ducting systems, and specialized kitchen equipment, all built to exacting standards. With in-house capabilities for 
-                                 cutting, bending, welding, and finishing, we ensure each project meets stringent quality and safety requirements. 
-                                 At Five Falcons, our commitment is to deliver durable, functional, and aesthetic metal fabrication solutions that
-                                  bring our clients’ designs to life.
-                                  <br>
-                                We combine technical precision with innovative engineering to turn complex ideas into practical realities. By investing
-                                 in modern machinery and skilled craftsmanship, we handle projects of any scale with confidence and efficiency. Our
-                                  dedicated team collaborates closely with clients, from initial concept and detailed design to final installation, 
-                                  ensuring seamless execution at every stage. This client-focused approach has earned us a reputation for reliability,
-                                   flexibility, and uncompromising quality in every solution we deliver.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-         </section>
+    <div class="corevalue-mobileview">
+    <div class="mf-section-title text-center dark large-size">
+      <h2 class="innovative">Our Strength Lies <br />in Our Values</h2>
+    </div>
+    </div>
  
-        <!-- About us end-->
+    
+    <!-- card1 -->
+  <div class="col-md-4 mb-4 aboutcard-col">
+    <div class="card core-value-card animate-on-scroll">
+      <div class="card-icon">
+        <i class="fas fa-user-check"></i>
+      </div>
+      <div class="card-title">
+        <h4>Customer-Centricity</h4>
+      </div>
+      <div class="card-body">
+        <p>We put our clients at the heart of everything we do, turning their vision into reality with tailored solutions.</p>
+      </div>
+    </div>
+  </div>
 
-<section>
+  <!-- centertitle -->
+  <div class="col-md-4 d-flex justify-content-center align-items-center mb-4 centertitle">
+    <div class="mf-section-title text-center dark large-size">
+      <h2 class="innovative">Our Strength Lies <br />in Our Values</h2>
+    </div>
+  </div>
 
-</section>
+  <!-- card2 -->
+  <div class="col-md-4 mb-4 aboutcard-col">
+    <div class="card core-value-card animate-on-scroll">
+      <div class="card-icon">
+        <i class="fas fa-cogs"></i>
+      </div>
+      <div class="card-title">
+        <h4>Quality & Precision</h4>
+      </div>
+      <div class="card-body">
+        <p>We never compromise on craftsmanship, delivering robust and reliable results every time.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<div class="row text-center whatwedoimg">
+  <!-- card3 -->
+  <div class="col-md-4 mb-4 aboutcard-col ">
+    <div class="card core-value-card animate-on-scroll">
+      <div class="card-icon">
+        <i class="fas fa-lightbulb"></i>
+      </div>
+      <div class="card-title">
+        <h4>Innovative & Reliable</h4>
+      </div>
+      <div class="card-body">
+        <p>We blend creative engineering with advanced technologies to deliver solutions that are both innovative and reliable.</p>
+      </div>
+    </div>
+  </div>
+  <!-- card4 -->
+  <div class="col-md-4 mb-4 aboutcard-col">
+    <div class="card core-value-card animate-on-scroll">
+      <div class="card-icon">
+        <i class="fas fa-users"></i>
+      </div>
+      <div class="card-title">
+        <h4>Teamwork & Expertise</h4>
+      </div>
+      <div class="card-body">
+        <p>We believe our strength lies in our skilled, dedicated team working together seamlessly.</p>
+      </div>
+    </div>
+  </div>
+  <!-- card5 -->
+  <div class="col-md-4 mb-4 aboutcard-col">
+    <div class="card core-value-card animate-on-scroll">
+      <div class="card-icon">
+        <i class="fas fa-chart-line"></i>
+      </div>
+      <div class="card-title">
+        <h4>Continuous Improvement</h4>
+      </div>
+      <div class="card-body">
+        <p>We invest in ongoing learning, advanced machinery, and process enhancements to exceed industry standards.</p>
+      </div>
+    </div>
+  </div>
+</div>
+     </div>     
+    <!-- corevalue end-->
 
-
-
-
-        <!-- footer -->
-        <div id="footer-widgets" class="footer-widgets widgets-area">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-4">
-                        <div class="widget_text widget">
-                            <div class="textwidget">
-                                <a href="#">
-                                    <img src="images/ff.png" class="footerlogo"  style="width: 60px;" alt="Footer Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="widget_text widget">
-                            <div class="textwidget">Five Falcons Metal Industries Factory
-                                 is a trusted leader in precision structural steel fabrication, delivering robust 
-                                 solutions from beams and mezzanine floors to shoring towers and equipment skids. 
-                                  &amp; economical solutions to valued customers.</div>
-                        </div>
-                        <div class="widget mf-button-widget"> <a href="#" class="mf-btn mf-btn-widget ">More About Us</a></div>
-                    </div>
-                    <div class="footer-sidebar footer-2 col-xs-12 col-sm-6 col-md-4">
-                        <div class="widget widget_mf-custom-menu">
-                            <h4 class="widget-title">Usefull Links</h4>
-                            <div class="custom-menu-area">
-                                <div class="custom-menu custom-menu-1">
-                                    <ul class="menu">
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Latest Projects	</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Testimonials</a></li>
-                                        <li><a href="#">Latest From Articles</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                                <div class="custom-menu custom-menu-2">
-                                    <ul class="menu">
-                                        <li><a href="#">Steel Fabrication</a></li>
-                                        <li><a href="#">Fire Protection</a></li>
-                                        <li><a href="#">Platforms & Handling</a></li>
-                                        <li><a href="#">Waste & Utility </a></li>
-                                        <li><a href="#">Stainless Steel</a></li>
-                                    </ul>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-sidebar footer-3 col-xs-12 col-sm-6 col-md-4">
-                        <div class="widget_text widget">
-                            <h4 class="widget-title">Contact Details</h4>
-                            <div class="textwidget">
-                                <div class="footer-widget-contact">
-                                    <div class="detail address">
-                                        <i class="flaticon-arrow"></i>
-                                        <div>
-                                            <span>Address:</span> nkfdhj hnfhhfjjffj hgbjhghgddbb ,bgfguy,
-                                        </div>
-                                    </div>
-                                    <div class="detail phone">
-                                        <i class="flaticon-tool"></i>
-                                        <div>
-                                            <span>Call Us On:</span> +00 999 999 000  &amp; 902
-                                        </div>
-                                    </div>
-
-                                    <div class="detail mail">
-                                        <i class="flaticon-note"></i>
-                                        <div>
-                                            <span>Mail Us At:</span> fivefalcons@gmail.com
-                                        </div>
-                                    </div>
-
-                                    <div class="detail time">
-                                        <i class="flaticon-wall-clock"></i>
-                                        <div>
-                                            <span>Opening Time:</span> Mon - Satday: 9am to 18pm
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    
+      </section>
+      <!-- what we do end -->
+      <!-- our strength -->
+      <section class="strengthpara">
+        <div class="container">
+          <div class="row justify-content-center align-items-center mb-5">
+            <div class="mf-section-title text-left dark large-size margbtm40 " style="padding: 20px;">
+              <h2 class="text-left ">Our Strength</h2>
             </div>
+            <h3 class="text-left Inspired">
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+              Inspired by Clients, Empowered by Craftsmanship
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </h3>
+            <p class="text-justify whatwedopara">
+              The true strength of Five Falcons Metal Industries Factory begins
+              with our valued customers, whose trust and vision continuously
+              inspire us to push creative and technical boundaries. Guided by
+              this inspiration, our dedicated team of skilled professionals
+              brings each project to life with precision and care. Backed by the
+              collective expertise and resources of the Five Falcons Group, we
+              deliver solutions that not only meet but exceed expectations —
+              ensuring every idea becomes a reality built on quality,
+              reliability, and forward-thinking innovation.
+            </p>
+          </div>
+          <div class="row text-center whatwedoimg">
+            <div class="col-md-4 card strength-card">
+              <img src="images/subpage/strength4.jpg" alt="aboutimg" />
+            </div>
+            <div class="col-md-4 card strength-card">
+              <img src="images/subpage/strength2.jpg" alt="aboutimg" />
+            </div>
+            <div class="col-md-4 card strength-card">
+              <img src="images/subpage/strength3.jpg" alt="aboutimg" />
+            
+            </div>
+          </div>
         </div>
-        <!-- footer end -->
+      </section>
 
-        <!-- copyright -->
-        <footer class="site-footer">
-            <div class="container footer-info">
-                <div class="footer-copyright">
-                    Copyrights © 2025 All Rights Reserved by <a href="#">Five Falcons</a>.</div>
-                <div class="text-right">
-                    <div class="socials footer-social">
-                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                    </div>
+      <!-- footer -->
+      <div id="footer-widgets" class="footer-widgets widgets-area">
+        <div class="container">
+          <div class="row">
+            <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-4">
+              <div class="widget_text widget">
+                <div class="textwidget">
+                  <a href="#">
+                    <img
+                      src="images/ff.png"
+                      class="footerlogo"
+                      style="width: 60px"
+                      alt="Footer Logo"
+                    />
+                  </a>
                 </div>
+              </div>
+              <div class="widget_text widget">
+                <div class="textwidget">
+                  Five Falcons Metal Industries Factory is a trusted leader in
+                  precision structural steel fabrication, delivering robust
+                  solutions from beams and mezzanine floors to shoring towers
+                  and equipment skids. &amp; economical solutions to valued
+                  customers.
+                </div>
+              </div>
+              <div class="widget mf-button-widget">
+                <a href="#" class="mf-btn mf-btn-widget">More About Us</a>
+              </div>
             </div>
-        </footer>
-        <!-- copyright end-->
+            <div class="footer-sidebar footer-2 col-xs-12 col-sm-6 col-md-4">
+              <div class="widget widget_mf-custom-menu">
+                <h4 class="widget-title">Usefull Links</h4>
+                <div class="custom-menu-area">
+                  <div class="custom-menu custom-menu-1">
+                    <ul class="menu">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Latest Projects </a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Latest From Articles</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="custom-menu custom-menu-2">
+                    <ul class="menu">
+                      <li><a href="#">Steel Fabrication</a></li>
+                      <li><a href="#">Fire Protection</a></li>
+                      <li><a href="#">Platforms & Handling</a></li>
+                      <li><a href="#">Waste & Utility </a></li>
+                      <li><a href="#">Stainless Steel</a></li>
+                    </ul>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-sidebar footer-3 col-xs-12 col-sm-6 col-md-4">
+              <div class="widget_text widget">
+                <h4 class="widget-title">Contact Details</h4>
+                <div class="textwidget">
+                  <div class="footer-widget-contact">
+                    <div class="detail address">
+                      <i class="flaticon-arrow"></i>
+                      <div>
+                        <span>Address:</span> nkfdhj hnfhhfjjffj hgbjhghgddbb
+                        ,bgfguy,
+                      </div>
+                    </div>
+                    <div class="detail phone">
+                      <i class="flaticon-tool"></i>
+                      <div>
+                        <span>Call Us On:</span> +00 999 999 000 &amp; 902
+                      </div>
+                    </div>
+
+                    <div class="detail mail">
+                      <i class="flaticon-note"></i>
+                      <div><span>Mail Us At:</span> fivefalcons@gmail.com</div>
+                    </div>
+
+                    <div class="detail time">
+                      <i class="flaticon-wall-clock"></i>
+                      <div>
+                        <span>Opening Time:</span> Mon - Satday: 9am to 18pm
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
+
+      <!-- copyright -->
+      <footer class="site-footer">
+        <div class="container footer-info">
+          <div class="footer-copyright">
+            Copyrights © 2025 All Rights Reserved by
+            <a href="#">Five Falcons</a>.
+          </div>
+          <div class="text-right">
+            <div class="socials footer-social">
+              <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- copyright end-->
     </div>
     <!--End pagewrapper-->
 
     <!--primary-mobile-nav-->
-    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
-        <a href="#" class="close-canvas-mobile-panel">×</a>
-        <ul class="menu">
-            <li class="current-menu-item menu-item-has-children"><a href="index.html" class="dropdown-toggle">Home</a>
-               
-            </li>
-            <li class="menu-item-has-children" ><a href="#" class="dropdown-toggle">About</a>
-             
-            </li>
-            <li class="menu-item-has-children" ><a href="#" class="dropdown-toggle">Service</a>
-               
-            </li>
-            <li class="menu-item-has-children" ><a href="projects.html" class="dropdown-toggle">Projects</a>
-               
-            </li>
-               
-       
-              
-            
-            <li ><a href="contact.html">Contact</a></li>
-        
-            
-        </ul>
+    <div
+      class="primary-mobile-nav header-v1"
+      id="primary-mobile-nav"
+      role="navigation"
+    >
+      <a href="#" class="close-canvas-mobile-panel">×</a>
+      <ul class="menu">
+        <li class="current-menu-item menu-item-has-children">
+          <a href="index.html" class="dropdown-toggle">Home</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#" class="dropdown-toggle">About</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#" class="dropdown-toggle">Service</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="projects.html" class="dropdown-toggle">Projects</a>
+        </li>
 
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
     <div id="off-canvas-layer" class="off-canvas-layer"></div>
     <!--primary-mobile-nav end-->
 
     <!--Scroll to top-->
-    <a id="scroll-top" class="backtotop" href="#page-top"><i class="fa fa-angle-up"></i></a>
-
-    
+    <a id="scroll-top" class="backtotop" href="#page-top"
+      ><i class="fa fa-angle-up"></i
+    ></a>
 
     <!-- jquery Liabrary -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- bootstrap v3.3.6 js -->
     <script src="js/bootstrap.min.js"></script>
-   
+
+    <!-- core value script start ------------------------------------->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll('.animate-on-scroll');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.2 });
+  
+  elements.forEach(el => observer.observe(el));
+});
+</script>
+    <!-- core value script end -->
+
     <!-- owl.carousel js -->
     <script src="js/owl.js"></script>
     <!-- counter js -->
@@ -353,23 +570,54 @@
     <script src="js/map-helper.js"></script>
 
     <!-- REVOLUTION JS FILES -->
-    <script type="text/javascript" src="js/revolution/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="js/revolution/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/jquery.themepunch.tools.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/jquery.themepunch.revolution.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.actions.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.carousel.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.kenburn.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.layeranimation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.migration.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.navigation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.parallax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.slideanims.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.video.min.js"
+    ></script>
 
     <!-- script JS  -->
     <script src="js/scripts.min.js"></script>
     <script src="js/script.js"></script>
     <script src="inc/contact.js"></script>
-</body>
-
-
+  </body>
 </html>
