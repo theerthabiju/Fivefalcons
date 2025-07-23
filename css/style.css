@@ -927,6 +927,33 @@ padding: 20px;
 .strength-card img{
 	border-radius: 5px;
 }
+/* servicepage */
+.Core{
+margin-top: 20px !important;
+}
+.tabone{
+	background-color: #f1f1f1be;
+}
+.servicerow{
+	display: flex;
+}
+.servicerow img{
+	margin-bottom: 20px;
+}
+.service-col{
+height: 270px;	
+width: 100%;
+padding: 10px;
+}
+
+.servicebottomimg{
+	width: 100%;
+	height: 700px;
+}
+.margin-10{
+	margin-top: 30px;
+	margin-left: 20px ;
+}
 
 	/*** 
 .
@@ -2914,7 +2941,6 @@ border-radius: 20px;
 	    display: none;
 	    width: 100%;
 	    -webkit-tap-highlight-color: transparent;
-	    /* position relative and z-index fix webkit rendering fonts issue */
 	    position: relative;
 	    z-index: 1;
 	}
@@ -3155,14 +3181,18 @@ border-radius: 20px;
 	.owl-dots .owl-dot {
 	    display: inline-block;
 	    zoom: 1;
-	    *display: inline;
+	    display: inline;
 	    /*IE7 life-saver */
 	}
 	
 	.owl-dots {
 	    text-align: center;
 	}
-	
+	.mainimg{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 	.owl-dots .owl-dot span {
 	    display: block;
 	    width: 10px;
@@ -7643,6 +7673,7 @@ font-weight: 700;
 	    font-size: 36px;
 	    font-weight: 400;
 	    margin: 0;
+		margin-top: 15px;
 	    padding-bottom: 15px;
 	    position: relative;
 	}

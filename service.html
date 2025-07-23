@@ -1,306 +1,1179 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Five falcons</title>
     <!-- Stylesheets -->
     <!-- bootstrap v3.3.6 css -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" />
     <!-- font-awesome css -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
     <!-- flaticon css -->
-    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet" />
     <!-- factoryplus-icons css -->
-    <link href="css/factoryplus-icons.css" rel="stylesheet">
+    <link href="css/factoryplus-icons.css" rel="stylesheet" />
     <!-- animate css -->
-    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" />
     <!-- owl.carousel css -->
-    <link href="css/owl.css" rel="stylesheet">
+    <link href="css/owl.css" rel="stylesheet" />
     <!-- fancybox css -->
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/hover.css" rel="stylesheet">
-    <link href="css/frontend.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet" />
+    <link href="css/hover.css" rel="stylesheet" />
+    <link href="css/frontend.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <!-- switcher css -->
-    <link href="css/switcher.css" rel="stylesheet">
-    <link rel='stylesheet' id='factoryhub-color-switcher-css' href='css/switcher/default.css' />
+    <link href="css/switcher.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      id="factoryhub-color-switcher-css"
+      href="css/switcher/default.css"
+    />
     <!-- revolution slider css -->
-    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css">
-    <link rel="stylesheet" type="text/css" href="css/revolution/layers.css">
-    <link rel="stylesheet" type="text/css" href="css/revolution/navigation.css">
+    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css" />
+    <link rel="stylesheet" type="text/css" href="css/revolution/layers.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/revolution/navigation.css"
+    />
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
     <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/responsive.css" rel="stylesheet">
-    
-</head>
-<style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+  <style>
+    .contactpagebanner h1 {
+      margin: 0;
+      font-size: 36px;
+    }
 
+    .contactpagebanner .breadcrumbs {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      width: 100%;
+    }
 
-.contactpagebanner h1 {
-  margin: 0;
-  font-size: 36px;
-}
+    .contactpagebanner .breadcrumbs .container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
 
-.contactpagebanner .breadcrumbs {
-  position: absolute;
-  bottom: 20px; 
-  left: 0;
-  width: 100%;
-}
+    .contactpagebanner .breadcrumbs a {
+      text-decoration: none;
+      color: #ffffff;
+    }
 
-.contactpagebanner .breadcrumbs .container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-
-.contactpagebanner .breadcrumbs a {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.contactpagebanner .breadcrumbs i {
-  font-size: 12px;
-  color: #ffffff;
-}
-
-</style>
-<body class="home   header-sticky header-transparent header-v3 hide-topbar-mobile">
+    .contactpagebanner .breadcrumbs i {
+      font-size: 12px;
+      color: #ffffff;
+    }
+  </style>
+  <body
+    class="home header-sticky header-transparent header-v3 hide-topbar-mobile"
+  >
     <div id="page" class="hfeed site">
+      <!-- Preloader-->
+      <div class="preloader"></div>
 
-        <!-- Preloader-->
-        <div class="preloader"></div>
+      <!-- masthead -->
+      <div
+        id="mf-header-minimized"
+        class="mf-header-minimized mf-header-v3"
+      ></div>
+      <header id="masthead" class="site-header clearfix" >
+        <div class="header-main">
+          <div class="container">
+            <div class="row menu-row">
+              <div class="site-logo col-md-9 col-sm-9 col-xs-9">
+                <a href="#" class="logo">
+                  <img src="images/ff.png" alt="Induscity" class="fflogo" />
+                </a>
+              </div>
+              <div class="site-menu hidden-md hidden-sm hidden-xs">
+                <nav id="site-navigation" class="main-nav primary-nav nav">
+                  <ul class="menu">
+                    <li class="active has-children">
+                      <a href="index.html" class="dropdown-toggle">Home</a>
+                    </li>
+                    <li class="has-children">
+                      <a href="about.html" class="dropdown-toggle">About</a>
+                    </li>
+                    <li class="has-children">
+                      <a href="service.html" class="dropdown-toggle"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="has-children">
+                      <a href="projects.html" class="dropdown-toggle"
+                        >Projects</a
+                      >
+                    </li>
 
-      
-
-        <!-- masthead -->
-        <div id="mf-header-minimized" class="mf-header-minimized mf-header-v3"></div>
-        <header id="masthead" class="site-header clearfix">
-            <div class="header-main">
-                <div class="container">
-                    <div class="row menu-row">
-                        <div class="site-logo col-md-9 col-sm-9 col-xs-9">
-                            <a href="#" class="logo">
-                                <img src="images/ff.png" alt="Induscity" class="fflogo">
-                            </a>
-                           
-                        </div>
-                        <div class="site-menu hidden-md hidden-sm hidden-xs">
-                            <nav id="site-navigation" class="main-nav primary-nav nav">
-								<ul class="menu">
-									<li class="active has-children"><a href="index.html" class="dropdown-toggle">Home</a>
-									
-									</li>
-									<li class="has-children"><a href="about.html" class="dropdown-toggle">About</a>
-								
-									</li>
-									<li class="has-children" ><a href="service.html" class="dropdown-toggle">Services</a>
-									
-									</li>
-									<li class="has-children" ><a href="projects.html" class="dropdown-toggle">Projects</a>
-										
-									</li>
-									
-									<li ><a href="contact.html">Contact</a></li>
-									<li class="extra-menu-item menu-item-search last-child">
-										<a href="#" class="toggle-search"><i class="fa fa-search" aria-hidden="true"></i></a>
-										<form class="search-form">
-											<input class="search-field" placeholder="Search..." value="" name="s" type="search">
-											<input class="search-submit" value="Search" type="submit">
-										</form>
-									</li>
-									<li id="mf-active-menu" class="mf-active-menu"></li>
-								</ul>
-                            </nav>
-                        </div>
-                        <div class="navbar-toggle col-md-3 col-sm-3 col-xs-3">
-                            <span id="mf-navbar-toggle" class="navbar-icon"><span class="navbars-line"></span></span>
-                        </div>
-                    </div>
-                </div>
+                    <li><a href="contact.html">Contact</a></li>
+               
+                    <li id="mf-active-menu" class="mf-active-menu"></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="navbar-toggle col-md-3 col-sm-3 col-xs-3">
+                <span id="mf-navbar-toggle" class="navbar-icon"
+                  ><span class="navbars-line"></span
+                ></span>
+              </div>
             </div>
-        </header>
-        <!-- masthead end -->
-
-        <!--Main Slider-->
-     <section class="contactpagebanner">
- 
-  <nav class="breadcrumbs">
-    <div class="container">
-      <a class="home" href="index.html"><span>Home</span></a>
-      <i class="fa fa-angle-right" aria-hidden="true"></i>
-      <span>Services</span>
-    </div>
-  </nav>
-</section>
-        <!--Main Slider  end-->
-
-     
-
-
-
-
-
-
-
-
-
-        <!-- footer -->
-        <div id="footer-widgets" class="footer-widgets widgets-area">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-4">
-                        <div class="widget_text widget">
-                            <div class="textwidget">
-                                <a href="#">
-                                    <img src="images/ff.png" class="footerlogo"  style="width: 60px;" alt="Footer Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="widget_text widget">
-                            <div class="textwidget">Five Falcons Metal Industries Factory
-                                 is a trusted leader in precision structural steel fabrication, delivering robust 
-                                 solutions from beams and mezzanine floors to shoring towers and equipment skids. 
-                                  &amp; economical solutions to valued customers.</div>
-                        </div>
-                        <div class="widget mf-button-widget"> <a href="#" class="mf-btn mf-btn-widget ">More About Us</a></div>
-                    </div>
-                    <div class="footer-sidebar footer-2 col-xs-12 col-sm-6 col-md-4">
-                        <div class="widget widget_mf-custom-menu">
-                            <h4 class="widget-title">Usefull Links</h4>
-                            <div class="custom-menu-area">
-                                <div class="custom-menu custom-menu-1">
-                                    <ul class="menu">
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Latest Projects	</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="#">Testimonials</a></li>
-                                        <li><a href="#">Latest From Articles</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                                <div class="custom-menu custom-menu-2">
-                                    <ul class="menu">
-                                        <li><a href="#">Steel Fabrication</a></li>
-                                        <li><a href="#">Fire Protection</a></li>
-                                        <li><a href="#">Platforms & Handling</a></li>
-                                        <li><a href="#">Waste & Utility </a></li>
-                                        <li><a href="#">Stainless Steel</a></li>
-                                    </ul>
-                                </div>
-                                <div class="clear"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-sidebar footer-3 col-xs-12 col-sm-6 col-md-4">
-                        <div class="widget_text widget">
-                            <h4 class="widget-title">Contact Details</h4>
-                            <div class="textwidget">
-                                <div class="footer-widget-contact">
-                                    <div class="detail address">
-                                        <i class="flaticon-arrow"></i>
-                                        <div>
-                                            <span>Address:</span> nkfdhj hnfhhfjjffj hgbjhghgddbb ,bgfguy,
-                                        </div>
-                                    </div>
-                                    <div class="detail phone">
-                                        <i class="flaticon-tool"></i>
-                                        <div>
-                                            <span>Call Us On:</span> +00 999 999 000  &amp; 902
-                                        </div>
-                                    </div>
-
-                                    <div class="detail mail">
-                                        <i class="flaticon-note"></i>
-                                        <div>
-                                            <span>Mail Us At:</span> fivefalcons@gmail.com
-                                        </div>
-                                    </div>
-
-                                    <div class="detail time">
-                                        <i class="flaticon-wall-clock"></i>
-                                        <div>
-                                            <span>Opening Time:</span> Mon - Satday: 9am to 18pm
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <!-- footer end -->
+      </header>
+      <!-- masthead end -->
 
-        <!-- copyright -->
-        <footer class="site-footer">
-            <div class="container footer-info">
-                <div class="footer-copyright">
-                    Copyrights © 2025 All Rights Reserved by <a href="#">Five Falcons</a>.</div>
-                <div class="text-right">
-                    <div class="socials footer-social">
-                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
-                        <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      <!--Main Slider-->
+      <section class="contactpagebanner">
+        <nav class="breadcrumbs">
+          <div class="container">
+            <a class="home" href="index.html"><span>Home</span></a>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span>Services</span>
+          </div>
+        </nav>
+      </section>
+      <!--Main Slider  end-->
+
+<!-- main content start -->
+
+<!-- service tab start -->
+      <section class="container" style="padding: 40px 0">
+        <div class="row">
+          <!-- Left side: list of services -->
+          <div class="col-md-4 list-of-services ">
+            <ul class="nav nav-pills nav-stacked" role="tablist">
+              <div class="mf-section-title text-left dark large-size margbtm40">
+                <h2 class="text-left">Our Main Services</h2>
+              </div>
+              <li class="active tabone">
+                <a href="#tab1" role="tab" data-toggle="tab"
+                  >Structural Steel Fabrication</a
+                >
+              </li>
+              <li>
+                <a href="#tab2" class="tabone" role="tab" data-toggle="tab"
+                  >Fire Protection & Safety Metal Works</a
+                >
+              </li>
+              <li>
+                <a href="#tab3" class="tabone" role="tab" data-toggle="tab"
+                  >Access Platforms & Handling Systems</a
+                >
+              </li>
+              <li>
+                <a href="#tab4" class="tabone" role="tab" data-toggle="tab"
+                  >Waste Management & Utility Fabrication</a
+                >
+              </li>
+              <li>
+                <a href="#tab5" class="tabone" role="tab" data-toggle="tab"
+                  >Stainless Steel & Metal Fabrication</a
+                >
+              </li>
+              <li>
+                <a href="#tab6" class="tabone" role="tab" data-toggle="tab"
+                  >Custom Fabrication Solutions</a
+                >
+              </li>
+              <div class="mf-section-title text-left dark large-size margbtm40">
+                <h2 class="text-left Core">Core Activites</h2>
+              </div>
+              <li>
+                <a href="#tab7" class="tabone" role="tab" data-toggle="tab"
+                  >Gates</a
+                >
+              </li>
+              <li>
+                <a href="#tab8" class="tabone" role="tab" data-toggle="tab"
+                  >Stainless Steel Kitchen Fabrication</a
+                >
+              </li>
+              <li>
+                <a href="#tab9" class="tabone" role="tab" data-toggle="tab"
+                  >Industrial Kitchen Fabrication</a
+                >
+              </li>
+              <li>
+                <a href="#tab10" class="tabone" role="tab" data-toggle="tab"
+                  >Stainless Steel Handrails</a
+                >
+              </li>
+              <li>
+                <a href="#tab11" class="tabone" role="tab" data-toggle="tab"
+                  >Duct Fabrication</a
+                >
+              </li>
+              <li>
+                <a href="#tab12" class="tabone" role="tab" data-toggle="tab"
+                  >Lift Structures</a
+                >
+              </li>
+              <li>
+                <a href="#tab13" class="tabone" role="tab" data-toggle="tab"
+                  >Steel Ramps</a
+                >
+              </li>
+            </ul>
+          </div>
+
+
+          <!-- Right side: tab content -->
+
+          <div class="col-md-8 tab">
+            <div class="tab-content">
+<!-- service -->
+              <div class="tab-pane fade in active" id="tab1">
+                <h4 class="margin-10">Structural Steel Fabrication</h4>
+                <p class="margin-10">
+                  Precision structural steel works including beams, columns,
+                  trusses, bracings, and specialized components for industrial,
+                  commercial, and residential projects.
+                </p>
+                  <div class="container">
+                  <div class="owl-carousel service-carousel text-center">
+                    <div class="service-col">
+                      <p><b>General Structural Steel Works</b></p>
+                      <img
+                        src="images/services/1.png"
+                        alt="service1"
+                        class="img-responsive center-block"
+                      />
+                      <p>Including beams, columns, trusses, and bracings</p>
                     </div>
-                </div>
+                    <div class="service-col">
+                      <p><b>Lifting Beams & Spreaders</b></p>
+                      <img
+                        src="images/services/2.png"
+                        alt="service2"
+                        class="img-responsive center-block"
+                      />
+                      <p>Precision-built and load-tested</p>
+                    </div>
+                    <div class="service-col">
+                      <p><b>Steel Towers & Gantries </b></p>
+                      <img
+                        src="images/services/3.png"
+                        alt="service3"
+                        class="img-responsive center-block"
+                      />
+                      <p>For lighting, telecom, or support structures</p>
+                    </div>
+                    <div class="service-col">
+                      <p><b>Mezzanine Floors</b></p>
+                      <img
+                        src="images/services/4.png"
+                        alt="service4"
+                        class="img-responsive center-block"
+                      />
+                      <p>Engineered for heavy-duty warehouse or factory use</p>
+                    </div>
+                    <div class="service-col">
+                      <p><b>Shoring Towers</b></p>
+                      <img
+                        src="images/services/5.png"
+                        alt="service5"
+                        class="img-responsive center-block"
+                      />
+                      <p>
+                        Temporary structures for load-bearing support during
+                        construction
+                      </p>
+                    </div>
+                    <div class="service-col">
+                      <p><b>Base Frames & Equipment Skids </b></p>
+                      <img
+                        src="images/services/6.png"
+                        alt="service6"
+                        class="img-responsive center-block"
+                      />
+                      <p>
+                        For generators, compressors, and other heavy equipment.
+                      </p>
+                    </div>
+                  </div>
+                  </div>
+                <p>
+                   <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>General Structural Steel Works</strong> involve the fabrication and
+      assembly of key structural elements essential for the stability and strength of buildings,
+      bridges, industrial facilities, and other infrastructure projects. This typically includes
+      manufacturing and installing beams, which support horizontal loads; columns, which bear
+      vertical loads and transfer them to foundations; trusses, which are triangular frameworks
+      that provide rigidity and distribute weight efficiently; and bracings, which reinforce
+      structures against lateral forces such as wind or seismic activity. Together, these
+      components form the backbone of safe, durable, and robust steel frameworks used in a wide
+      range of construction applications.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Steel Towers & Gantries</strong> are engineered to provide reliable support for
+      lighting systems, telecommunication equipment, and other critical infrastructure. These robust
+      steel structures are built to withstand environmental stress and heavy loads. Steel towers
+      often rise high to maximize coverage and visibility, whereas gantries span horizontally to
+      support overhead equipment or traffic signage, ensuring safety and functionality in industrial,
+      commercial, and public spaces.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Mezzanine Floors</strong> are custom-designed and engineered for heavy-duty use in
+      warehouses, factories, and industrial facilities, creating additional usable space without
+      costly building extensions. Made from durable steel, these intermediate floors can support
+      storage racks, equipment, or office space, significantly increasing operational capacity and
+      improving workflow efficiency.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Shoring Towers</strong> are temporary yet crucial load-bearing structures used during
+      construction or renovation projects. They support concrete slabs, beams, or entire structural
+      sections until permanent supports are in place and the concrete has set. Engineered for
+      stability and safety, they help prevent collapse or shifting, ensuring a secure working
+      environment on site.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Base Frames & Equipment Skids</strong> are robust steel frames fabricated to support
+      and transport heavy machinery like generators, compressors, and pumps. Designed to distribute
+      weight evenly and reduce vibration, these structures simplify installation and relocation of
+      equipment, protect it from damage, and enhance operational stability in demanding industrial
+      environments.
+    </li>
+                 </ul>
+                 </p>
             </div>
-        </footer>
-        <!-- copyright end-->
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab2">
+                <h4 class="margin-10">Fire Protection & Safety Metal Works</h4>
+                <p class="margin-10">
+                  Design and fabrication of fire protection systems, safety
+                  barriers, and other safety metal works tailored to meet
+                  regulatory standards and client requirements.
+                </p>
+<!-- -------------------------------------------- -->
+<!-- Slider section starts -->
+<div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Fire-Rated Steel Doors</b></p>
+      <img src="images/services/f1.png" alt="service2" class="img-responsive center-block" />
+      <p>Single/double-leaf, panic hardware, and vision panel options</p>
+    </div>
+    <div class="service-col">
+      <p><b>Fire Hose Reel Cabinets</b></p>
+      <img src="images/services/f2.png" alt="service3" class="img-responsive center-block" />
+      <p>Wall-mounted or recessed, with corrosion-resistant finishes.</p>
+    </div>
+    </div>
+      <div class="mainimg text-center">
+
+     <div class="service-col">
+      <p><b>Emergency Exit Doors</b></p>
+      <img src="images/services/f3.png" alt="service2" class="img-responsive center-block" />
+      <p>Integrated panic bars and durable steel construction.</p>
+    </div>
+    <div class="service-col">
+      <p><b>Protective Guards & Bollards</b></p>
+      <img src="images/services/f4.png" alt="service3" class="img-responsive center-block" />
+      <p>For industrial and high-traffic safety</p>
+    </div>
+      </div>
+
+</div>
+<!-- Slider section ends -->
+<!-- -------------------------------------------- -->
+
+
+
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Fire-Rated Steel Doors</strong> are expertly engineered in single or double-leaf designs, complete with panic hardware 
+      and optional vision panels. Built to meet strict safety standards, these doors provide critical fire resistance while ensuring
+       quick and secure evacuation in emergencies.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Fire Hose Reel Cabinets</strong> are available in wall-mounted or recessed configurations and finished 
+      with corrosion-resistant coatings. Designed to protect fire safety equipment and keep it easily accessible, 
+      these cabinets blend functionality with long-lasting durability.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Emergency Exit Doors</strong>  feature integrated panic bars and sturdy steel construction, ensuring safe, 
+      rapid egress during critical situations. Their robust design meets regulatory requirements and withstands frequent use in high-traffic areas.
+
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Protective Guards & Bollards</strong>  offer essential safety solutions for industrial facilities,
+       commercial buildings, and public spaces. These durable steel structures help protect people, machinery, and property from
+        impact and guide safe movement through high-traffic zones.
+
+    </li>
+  
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab3">
+                <h4 class="margin-10">Access Platforms & Handling Systems</h4>
+                <p class="margin-10">
+                  Custom-built access platforms, ladders, and material handling
+                  systems ensuring safety and efficiency in industrial
+                  environments.
+                </p>
+             <!-- -------------------------------------------- -->
+<!-- Slider section starts -->
+<div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Man Baskets & Cargo Baskets </b></p>
+      <img src="images/services/s-3.png" alt="service2" class="img-responsive center-block" />
+      <p>Safe lifting of personnel and materials.</p>
+    </div>
+    <div class="service-col">
+      <p><b>Offshore Transport Baskets </b></p>
+      <img src="images/services/s-4.png" alt="service3" class="img-responsive center-block" />
+      <p>Certified and rugged, for marine & offshore use</p>
+    </div>
+    </div>
+      <div class="mainimg text-center">
+
+     <div class="service-col">
+      <p><b>Walkways, Handrails  </b></p>
+      <img src="images/services/s-2.png" alt="service2" class="img-responsive center-block" />
+      <p>For maintenance, safety, and structural access.</p>
+    </div>
+    <div class="service-col">
+      <p><b>Handrails & Ladders</b></p>
+      <img src="images/services/s-1.png" alt="service3" class="img-responsive center-block" />
+      <p>For maintenance, safety, and structural access.</p>
+    </div>
+      </div>
+
+</div>
+<!-- Slider section ends -->
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Man Baskets & Cargo Baskets</strong> are engineered for the secure and efficient lifting 
+        of personnel and materials in industrial environments. Built to meet stringent safety 
+        standards, they ensure stability and protection during elevated operations. Their robust 
+        construction and certified designs make them ideal for use in construction 
+        sites, offshore platforms, and maintenance tasks. With customizable options, these baskets 
+        can be tailored to fit specific project requirements and operational needs.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Offshore Transport Baskets</strong> are specially designed to safely transfer equipment and materials
+      across marine and offshore facilities. Built with heavy-duty, corrosion-resistant materials,
+       they withstand harsh sea conditions and demanding environments. Each basket is fully certified to
+      meet international offshore safety and handling standards. Their durable, rugged construction ensures 
+      reliable performance during repeated lifting and transport operations.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Walkways, Handrails & Ladders</strong> are essential components that enhance safety and accessibility across industrial 
+      and commercial facilities. Designed for durability and compliance with safety standards, they provide secure routes 
+      for maintenance and operational tasks. Precision fabrication ensures
+       these structures integrate seamlessly into existing frameworks. Their robust construction helps protect personnel 
+       hile supporting efficient movement around complex sites.
+    </li>
+
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab4">
+                <h4 class="margin-10"> Waste Management & Utility Fabrication</h4>
+                <p class="margin-10">
+                  Fabrication of waste bins, utility enclosures, and other
+                  infrastructure solutions to support facility operations and
+                  environmental standards.
+                </p>
+             <!-- -------------------------------------------- -->
+              <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Garbage Skips, Bins, and Chutes</b></p>
+      <img src="images/services/w-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Heavy-duty containers for industrial waste</p>
+    </div>
+    <div class="service-col">
+      <p><b>Chimney Ducts & Exhausts</b></p>
+      <img src="images/services/w-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Fabricated ducts for ventilation and exhaust.</p>
+    </div>
+    </div>
+      <div class="mainimg text-center">
+
+     <div class="service-col">
+      <p><b>Steel Enclosures & Cabinets</b></p>
+      <img src="images/services/w-3.png" alt="service2" class="img-responsive center-block" />
+      <p>Durable storage units for tools, hoses, and equipment</p>
+    </div>
+    <div class="service-col">
+      <p><b>Steel Enclosures & Cabinets</b></p>
+      <img src="images/services/w-4.png" alt="service3" class="img-responsive center-block" />
+      <p>storage units for tools, hoses, and equipment</p>
+    </div>
+      </div>
+
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>Garbage Skips, Bins, and Chutes</strong> are designed to handle large volumes of industrial and commercial waste efficiently.
+       Manufactured from heavy-duty, corrosion-resistant materials, they withstand tough working conditions and frequent use. Their practical
+       designs support easy loading, unloading, and transportation of waste. These solutions help maintain cleaner, safer worksites
+        by streamlining waste collection and disposal.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+    <strong>Chimney Ducts & Exhausts</strong> are custom-fabricated to manage ventilation and expel fumes safely from industrial processes. 
+     Built with high-quality materials, they ensure durability and resistance to heat and corrosion. Precision
+      engineering supports efficient airflow, improving air quality and operational safety. These systems are essential 
+      for maintaining compliant and healthy working environments.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+   <strong>Steel Enclosures & Cabinets</strong> provide secure and organized storage for tools, hoses, and sensitive equipment.
+       Crafted from robust, corrosion-resistant steel, they are built to withstand harsh industrial and outdoor environments. 
+       Thoughtfully designed compartments and locking systems
+       help protect valuable assets from damage and unauthorized access. These durable units enhance operational efficiency
+        by keeping essential items safe and easily accessible.
+    </li>
+
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab5">
+                <h4 class="margin-10">Stainless Steel & Metal Fabrication</h4>
+                <p class="margin-10">
+                  Comprehensive stainless steel works including decorative
+                  items, structural supports, claddings, and other specialized
+                  metal fabrication.
+                </p>
+             <!-- -------------------------------------------- -->
+              <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Stainless Steel Handrails & Railings
+</b></p>
+      <img src="images/services/ss-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Durable and aesthetic for all settings.</p>
+    </div>
+    <div class="service-col">
+      <p><b>Metal Gates, Grills, and Covers </b></p>
+      <img src="images/services/ss-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Secure, Durable, Functional</p>
+    </div>
+    </div>
+      <div class="mainimg text-center">
+
+     <div class="service-col">
+      <p><b>Kitchen , Hospitality Equipment</b></p>
+      <img src="images/services/ss-3.png" alt="service2" class="img-responsive center-block" />
+      <p>Food-grade fabrication for commercial kitchens</p>
+    </div>
+    <div class="service-col">
+      <p><b>Metal Gates, Grills, and Covers </b></p>
+      <img src="images/services/ss-4.png" alt="service3" class="img-responsive center-block" />
+      <p>In industrial, commercial, and residential spaces</p>
+    </div>
+      </div>
+
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+    <strong>Stainless steel handrails and railings</strong> offer a perfect blend of strength, safety, and contemporary design. 
+    Crafted to withstand daily use and harsh environments, they remain rust-free and low-maintenance. Their sleek finish complements commercial, 
+    industrial, and residential spaces alike.
+
+
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+     <strong>Metal gates, grills, and covers</strong> are custom-fabricated to provide robust security and stylish design. 
+     Built from high-quality steel or iron, they ensure long-lasting protection for entrances, windows, and utility areas. 
+     Each piece can be tailored to match architectural aesthetics and functional needs.
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+   <strong> Kitchen & hospitality equipment</strong> is manufactured from hygienic, food-grade stainless steel for safety and durability.
+    These solutions support busy commercial kitchens with sturdy worktops, storage, and specialized fittings. Precision design helps streamline
+     food preparation and service operations efficiently.
+    </li>
+ 
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab6">
+                <h4 class="margin-10">Custom Fabrication Solutions</h4>
+                <p class="margin-10">
+                  Tailored fabrication services designed to meet unique customer
+                  specifications, combining creativity, precision, and advanced
+                  technology.
+                </p>
+              <!-- -------------------------------------------- -->
+                          <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Cutting, Bending, and Welding
+</b></p>
+      <img src="images/services/c-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Precision fabrication of metal parts to exact specifications.</p>
+    </div>
+    <div class="service-col">
+      <p><b>Galvanizing, Powder Coating, Finishing</b></p>
+      <img src="images/services/c-2.png" alt="service3" class="img-responsive center-block" />
+      <p> Protective and decorative finishes for durability and aesthetics.</p>
+    </div>
+    </div>
+      <div class="mainimg text-center">
+
+     <div class="service-col">
+      <p><b>On-site Installation & Project Support</b></p>
+      <img src="images/services/c-3.png" alt="service2" class="img-responsive center-block" />
+      <p> Professional assembly and technical assistance at your location.</p>
+    </div>
+    <div class="service-col">
+      <p><b>Design Drawings and Specifications</b></p>
+      <img src="images/services/c-4.png" alt="service3" class="img-responsive center-block" />
+      <p>Tailor-made fabrication to match your unique project needs.</p>
+    </div>
+      </div>
+
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+     <strong>Precision cutting, bending, and welding</strong> services transform raw metal into accurate, ready-to-install components. Using advanced machinery and skilled technicians, we handle complex shapes and large-scale production.
+     This ensures strength, clean finishes, and exact alignment with client specifications. Our process supports a wide range of industrial and architectural applications.
+
+
+    </li>
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+    <strong> Galvanizing, Powder Coating, and Finishing</strong> Protective finishing services like galvanizing and powder coating extend the life of metal products. These processes add resistance to corrosion, 
+     weather, and daily wear while improving appearance.
+      Finishes can be customized in various colors and textures. The result is durable, low-maintenance, and visually appealing metal work.
+    </li>
+     <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+   <strong>Custom Metal Works based on Design Drawings and Specifications-
+</strong> Tailored metal fabrication services bring client designs and technical drawings to life. Each piece is produced to precise measurements
+    and quality standards. Flexible production capabilities handle unique, 
+   small-batch, or large-scale custom projects. This approach ensures that every project meets exact functional and aesthetic goals.
+ 
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab7">
+                <h4 class="margin-10">Gates</h4>
+                <p class="margin-10">
+                  Custom-designed gates for residential, industrial, and
+                  commercial applications, crafted to blend durability,
+                  security, and design aesthetics.
+                </p>
+                <!-- -------------------------------------------- -->
+<div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Gates</b></p>
+      <img src="images/services/g-2.png" alt="service2" class="img-responsive center-block" />
+      <p> Custom-designed gates for residential, industrial, and commercial use</p>
+    </div>
+    <div class="service-col">
+      <p><b>Custom-Gates</b></p>
+      <img src="images/services/g-1.png" alt="service3" class="img-responsive center-block" />
+      <p>For residential, industrial, and commercial use</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      <strong>We fabricate custom gates</strong> tailored to the unique requirements of homes, factories, and commercial properties.
+       Built from high-quality steel or stainless steel, they ensure security and durability. Designs range from simple 
+       functional barriers to decorative, modern styles. Each gate is crafted to blend seamlessly with the surrounding architecture.
+    </li>
+ 
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab8">
+                <h4 class="margin-10">Stainless Steel Kitchen Fabrication</h4>
+                <p class="margin-10">
+                  Including work tables, sinks, cookers, hoods, and shelving,
+                  all designed to meet the highest hygiene and functionality
+                  standards.
+                </p>
+               <!-- -------------------------------------------- -->
+                <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Stainless Steel Kitchen Fabrication</b></p>
+      <img src="images/services/k-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Including work tables, sinks, cookers, hoods, and shelving</p>
+    </div>
+    <div class="service-col">
+      <p><b>Stainless Steel  Kitchen Fabrication</b></p>
+      <img src="images/services/kk-2.png" alt="service3" class="img-responsive center-block" />
+      <p> Protective and decorative finishes for durability and aesthetics.</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+     We manufacture a complete range of <strong>stainless steel kitchen</strong> equipment designed for efficiency and hygiene. 
+     Products include sturdy work tables, seamless sinks, powerful cookers, exhaust hoods, and space-saving 
+     shelving. Made from food-grade stainless steel, these solutions resist corrosion and are easy to clean. They are ideal for restaurants, hotels, and catering facilities.
+    </li>
+ 
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab9">
+                <h4 class="margin-10">Industrial Kitchen Fabrication</h4>
+                <p class="margin-10">
+                  Hygienic and corrosion-resistant solutions for large-scale
+                  commercial kitchens, ensuring efficiency and compliance with
+                  health standards.
+                </p>
+                <!-- -------------------------------------------- -->
+                 <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Industrial Kitchen Fabrication</b></p>
+      <img src="images/services/kk-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Hygienic and corrosion-resistant solutions for commercial kitchens</p>
+    </div>
+    <div class="service-col">
+      <p><b>Commercial kitchens</b></p>
+      <img src="images/services/k-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Using premium stainless steel</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+    <strong>Our industrial kitchen fabrication</strong> focuses on robust equipment built for demanding commercial use.
+       Using premium stainless steel, each piece is designed to withstand daily heavy-duty operations. 
+      Smooth surfaces and precision welds make cleaning simple and meet strict hygiene standards. 
+      These solutions help keep professional kitchens efficient, organized, and safe.
+    </li>
+  
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab10">
+                <h4 class="margin-10">Stainless Steel Handrails</h4>
+                <p class="margin-10">
+                  Safe and aesthetic handrail solutions suitable for industrial,
+                  commercial, and residential environments.
+                </p>
+              <!-- -------------------------------------------- -->
+               <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Stainless Steel Handrails</b></p>
+      <img src="images/services/h-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Safe and aesthetic solutions for all environments</p>
+    </div>
+    <div class="service-col">
+            <p><b>Stainless Steel Handrails</b></p>
+      <img src="images/services/h-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Safe and aesthetic solutions for all environments</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+    <strong>Stainless steel handrails</strong>provide reliable support while adding modern style to buildings. Crafted to meet safety standards, they are suitable for staircases, balconies, and ramps. 
+      Corrosion-resistant materials ensure long-term durability indoors and outdoors. Their sleek finish complements both contemporary and classic architectural designs.
+    </li>
+
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab11">
+                <h4 class="margin-10">Duct Fabrication</h4>
+                <p class="margin-10">
+                  Fabrication of ventilation and exhaust ducts tailored to the
+                  exact needs of each project for optimal airflow and
+                  durability.
+                </p>
+                <!-- -------------------------------------------- -->
+                 <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Duct Fabrication</b></p>
+      <img src="images/services/d-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Ventilation and exhaust ducts tailored to project needs</p>
+    </div>
+    <div class="service-col">
+      <p><b>Duct Fabrication</b></p>
+      <img src="images/services/d-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Ventilation and exhaust ducts tailored to project needs</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+      We design and  <strong>fabricate ventilation and exhaust ducts</strong> to match exact project specifications. 
+      Each duct is produced from durable, corrosion-resistant materials to ensure long service life. Precision forming
+       techniques deliver smooth airflow and reliable performance. These solutions support clean air circulation in industrial, commercial, and residential buildings.
+    </li>
+
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab12">
+                <h4 class="margin-10">Lift Structures</h4>
+                <p class="margin-10">
+                  Robust support frames and steel structures specifically
+                  designed for elevators and lift installations.
+                </p>
+                <!-- -------------------------------------------- -->
+                 <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Lift Structures</b></p>
+      <img src="images/services/l-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Support frames and steel structures for elevators</p>
+    </div>
+    <div class="service-col">
+      <p><b>Lift Structures</b></p>
+      <img src="images/services/l-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Support frames and steel structures for elevators</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+       <strong>Our lift structures</strong> are engineered to safely house and support elevator systems. Made from strong, certified steel, they provide the stability
+       required for vertical transport. Designs are customized to fit shaft dimensions and building layouts. This ensures smooth installation and dependable operation.
+    </li>
+  
+  </ul>
+</p>
+
+                </div>
+<!-- service -->
+
+              <div class="tab-pane fade" id="tab13">
+                <h4 class="margin-10">Steel Ramps</h4>
+                <p class="margin-10">
+                  Access ramps for warehouses, factories, and loading bays,
+                  engineered for safety, strength, and functionality.
+                </p>
+                <!-- -------------------------------------------- -->
+                 <div class="container">
+  <div class="mainimg text-center">
+    <div class="service-col">
+      <p><b>Steel Ramps</b></p>
+      <img src="images/services/r-1.png" alt="service2" class="img-responsive center-block" />
+      <p>Access ramps for warehouses, factories, and loading bays</p>
+    </div>
+    <div class="service-col">
+      <p><b>Steel Ramps</b></p>
+      <img src="images/services/r-2.png" alt="service3" class="img-responsive center-block" />
+      <p>Access ramps for warehouses, factories, and loading bays</p>
+    </div>
+    </div>
+</div>
+<!-- -------------------------------------------- -->
+                <p>
+  <ul class="fa-ul">
+    <li>
+      <span class="fa-li"><i class="fa fa-check-circle"></i></span>
+    <strong>We fabricate durable steel ramps</strong> that improve accessibility and workflow efficiency. Designed for warehouses, factories, and logistic areas, they withstand heavy
+      loads and frequent use. Anti-slip surfaces and precise slope calculations enhance safety. Custom sizing ensures seamless integration into existing spaces.
+    </li>
+  </ul>
+</p>
+
+              </div>
+<!-- service -->
+
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- service tab end -->
+
+
+<section> 
+  <div class="row servicerowimg">
+    <div class="col-md-12 img-responsive ">
+<img class="servicebottomimg" src="images/subpage/steel3.jpg" alt="service">
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- main content end -->
+
+      <!-- footer -->
+      <div id="footer-widgets" class="footer-widgets widgets-area">
+        <div class="container">
+          <div class="row">
+            <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-4">
+              <div class="widget_text widget">
+                <div class="textwidget">
+                  <a href="#">
+                    <img
+                      src="images/ff.png"
+                      class="footerlogo"
+                      style="width: 60px"
+                      alt="Footer Logo"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="widget_text widget">
+                <div class="textwidget">
+                  Five Falcons Metal Industries Factory is a trusted leader in
+                  precision structural steel fabrication, delivering robust
+                  solutions from beams and mezzanine floors to shoring towers
+                  and equipment skids. &amp; economical solutions to valued
+                  customers.
+                </div>
+              </div>
+              <div class="widget mf-button-widget">
+                <a href="#" class="mf-btn mf-btn-widget">More About Us</a>
+              </div>
+            </div>
+            <div class="footer-sidebar footer-2 col-xs-12 col-sm-6 col-md-4">
+              <div class="widget widget_mf-custom-menu">
+                <h4 class="widget-title">Usefull Links</h4>
+                <div class="custom-menu-area">
+                  <div class="custom-menu custom-menu-1">
+                    <ul class="menu">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Latest Projects </a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Testimonials</a></li>
+                      <li><a href="#">Latest From Articles</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="custom-menu custom-menu-2">
+                    <ul class="menu">
+                      <li><a href="#">Steel Fabrication</a></li>
+                      <li><a href="#">Fire Protection</a></li>
+                      <li><a href="#">Platforms & Handling</a></li>
+                      <li><a href="#">Waste & Utility </a></li>
+                      <li><a href="#">Stainless Steel</a></li>
+                    </ul>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-sidebar footer-3 col-xs-12 col-sm-6 col-md-4">
+              <div class="widget_text widget">
+                <h4 class="widget-title">Contact Details</h4>
+                <div class="textwidget">
+                  <div class="footer-widget-contact">
+                    <div class="detail address">
+                      <i class="flaticon-arrow"></i>
+                      <div>
+                        <span>Address:</span> nkfdhj hnfhhfjjffj hgbjhghgddbb
+                        ,bgfguy,
+                      </div>
+                    </div>
+                    <div class="detail phone">
+                      <i class="flaticon-tool"></i>
+                      <div>
+                        <span>Call Us On:</span> +00 999 999 000 &amp; 902
+                      </div>
+                    </div>
+
+                    <div class="detail mail">
+                      <i class="flaticon-note"></i>
+                      <div><span>Mail Us At:</span> fivefalcons@gmail.com</div>
+                    </div>
+
+                    <div class="detail time">
+                      <i class="flaticon-wall-clock"></i>
+                      <div>
+                        <span>Opening Time:</span> Mon - Satday: 9am to 18pm
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer end -->
+
+      <!-- copyright -->
+      <footer class="site-footer">
+        <div class="container footer-info">
+          <div class="footer-copyright">
+            Copyrights © 2025 All Rights Reserved by
+            <a href="#">Five Falcons</a>.
+          </div>
+          <div class="text-right">
+            <div class="socials footer-social">
+              <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-whatsapp"></i></a>
+              <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- copyright end-->
     </div>
     <!--End pagewrapper-->
 
     <!--primary-mobile-nav-->
-    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
-        <a href="#" class="close-canvas-mobile-panel">×</a>
-        <ul class="menu">
-            <li class="current-menu-item menu-item-has-children"><a href="index.html" class="dropdown-toggle">Home</a>
-               
-            </li>
-            <li class="menu-item-has-children" ><a href="#" class="dropdown-toggle">About</a>
-             
-            </li>
-            <li class="menu-item-has-children" ><a href="#" class="dropdown-toggle">Service</a>
-               
-            </li>
-            <li class="menu-item-has-children" ><a href="projects.html" class="dropdown-toggle">Projects</a>
-               
-            </li>
-               
-       
-              
-            
-            <li ><a href="contact.html">Contact</a></li>
-        
-            
-        </ul>
+    <div
+      class="primary-mobile-nav header-v1"
+      id="primary-mobile-nav"
+      role="navigation"
+    >
+      <a href="#" class="close-canvas-mobile-panel">×</a>
+      <ul class="menu">
+        <li class="current-menu-item menu-item-has-children">
+          <a href="index.html" class="dropdown-toggle">Home</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#" class="dropdown-toggle">About</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="#" class="dropdown-toggle">Service</a>
+        </li>
+        <li class="menu-item-has-children">
+          <a href="projects.html" class="dropdown-toggle">Projects</a>
+        </li>
 
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
     <div id="off-canvas-layer" class="off-canvas-layer"></div>
     <!--primary-mobile-nav end-->
 
     <!--Scroll to top-->
-    <a id="scroll-top" class="backtotop" href="#page-top"><i class="fa fa-angle-up"></i></a>
-
-    
+    <a id="scroll-top" class="backtotop" href="#page-top"
+      ><i class="fa fa-angle-up"></i
+    ></a>
 
     <!-- jquery Liabrary -->
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- bootstrap v3.3.6 js -->
     <script src="js/bootstrap.min.js"></script>
-   
+
     <!-- owl.carousel js -->
     <script src="js/owl.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".service-carousel").owlCarousel({
+          loop: true,
+          margin: 15,
+          nav: false,
+          dots: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 2 },
+          },
+        });
+      });
+    </script>
+   
+
+
+
     <!-- counter js -->
+
     <script src="js/jquery.appear.js"></script>
     <script src="js/jquery.countTo.js"></script>
     <!-- validate js -->
@@ -314,23 +1187,55 @@
     <script src="js/map-helper.js"></script>
 
     <!-- REVOLUTION JS FILES -->
-    <script type="text/javascript" src="js/revolution/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="js/revolution/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/jquery.themepunch.tools.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/jquery.themepunch.revolution.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.actions.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.carousel.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.kenburn.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.layeranimation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.migration.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.navigation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.parallax.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.slideanims.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revolution/extensions/revolution.extension.video.min.js"
+    ></script>
 
     <!-- script JS  -->
     <script src="js/scripts.min.js"></script>
     <script src="js/script.js"></script>
     <script src="inc/contact.js"></script>
-</body>
-
-
+  </body>
 </html>
+
