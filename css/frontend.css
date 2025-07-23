@@ -1,22 +1,4 @@
-/************ TABLE OF CONTENTS ***************
-1.Fonts
-2.Elements & section
-3.service section
-4.Header widget
-5.Section Title
-6.swatches
-7.page section style
 
-**********************************************/
-
-
-/*** 
-
-====================================================================
-	Fonts
-====================================================================
-
- ***/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
@@ -999,7 +981,7 @@ ul.nav-filter li a:hover,
 .slick-next:hover,
 .slick-next:focus,
 .mf-team .team-member ul li {
-    background-color: #f7c02d;
+    background-color:#165D31;
 }
 
 .header-v1 .main-nav ul.menu > li:not(.mf-active-menu),

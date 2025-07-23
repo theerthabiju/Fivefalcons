@@ -4,11 +4,8 @@
     left: -270px;
     top: 300px;
 }
-.yellow-theme{background:#f7c02d!important ;}
-.navy-theme{background: #00baff!important;}
-.orange-theme{background:#ee6012!important;}
-.green-theme{background:#00cc00!important;}
-.red-theme{background:#e83f39!important;}
+.yellow-theme{background: #165D31!important ;}
+
 
 
 .demo_changer .styleswitch {
@@ -43,7 +40,7 @@
     width: 45px;
     text-align:  center;
     line-height: 45px;
-    background: #f7c02d;
+    background: #165D31;
     font-size: 25px;
     color: #393939;
     z-index:  999;

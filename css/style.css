@@ -131,7 +131,7 @@
 	}
 	
 	mark {
-	    background: #ff0;
+	    background: #165D31;
 	    color: #000;
 	}
 	
@@ -4461,165 +4461,11 @@ border-radius: 20px;
 	    width: 100%;
 	    padding: 0;
 	}
-	/*--------------------------------------------------------------
-  404 page
---------------------------------------------------------------*/
+
 	
-	.error404.header-v1 .site-content {
-	    padding-top: 205px;
-	}
+
 	
-	.error404 .site-content {
-	    padding-top: 130px;
-	    padding-bottom: 130px;
-	    position: relative;
-	    background: url(../images/bg/404-bg.jpg) center center no-repeat;
-	    background-size: cover;
-	}
-	
-	.error404 .site-content:before {
-	    content: '';
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    bottom: 0;
-	    right: 0;
-	    opacity: 0.85;
-	    background-color: #165D31;
-	}
-	
-	.error404 .error-404 {
-	    position: relative;
-	    text-align: center;
-	    color: #252525;
-	}
-	
-	.error404 .error-404 .page-header {
-	    margin-top: 0;
-	    padding-bottom: 0;
-	    margin-bottom: 45px;
-	    border: 0;
-	    background-color: transparent;
-	}
-	
-	.error404 .error-404 .page-header p {
-	    font-weight: 500;
-	    line-height: 1;
-	}
-	
-	.error404 .error-404 .page-header p.line-1 {
-	    font-size: 20px;
-	    text-transform: uppercase;
-	    padding-bottom: 15px;
-	}
-	
-	.error404 .error-404 .page-header p.line-2 {
-	    color: #fff;
-	    font-size: 18px;
-	}
-	
-	.error404 .error-404 h1 {
-	    color: #252525;
-	    font-size: 200px;
-	    font-weight: 700;
-	    margin: 0;
-	    line-height: 1;
-	    padding-bottom: 0;
-	}
-	
-	.error404 .error-404 .search-field {
-	    background-color: rgba(255, 255, 255, 0.7);
-	    border: none;
-	}
-	
-	.error404 .error-404 .search-form {
-	    font-size: 16px;
-	    position: relative;
-	    color: #848484;
-	    display: -webkit-box;
-	    display: -webkit-flex;
-	    display: -moz-box;
-	    display: -ms-flexbox;
-	    display: flex;
-	    width: 430px;
-	    margin: 0 auto;
-	}
-	
-	.error404 .error-404 .search-form:before {
-	    content: '\f002';
-	    position: absolute;
-	    top: 50%;
-	    right: 17px;
-	    color: #cccccc;
-	    font-family: FontAwesome;
-	    font-size: 14px;
-	    z-index: 99;
-	    -webkit-transform: translateY(-50%);
-	    -ms-transform: translateY(-50%);
-	    transform: translateY(-50%);
-	}
-	
-	.error404 .error-404 .search-form:after {
-	    content: '';
-	    position: absolute;
-	    top: 0;
-	    right: 0;
-	    width: 50px;
-	    height: 50px;
-	    background-color: #252525;
-	    z-index: 9;
-	}
-	
-	.error404 .error-404 .search-form .screen-reader-text {
-	    display: none;
-	}
-	
-	.error404 .error-404 .search-form::-webkit-input-placeholder {
-	    color: #848484;
-	}
-	
-	.error404 .error-404 .search-form:-moz-placeholder {
-	    color: #848484;
-	}
-	
-	.error404 .error-404 .search-form::-moz-placeholder {
-	    color: #848484;
-	}
-	
-	.error404 .error-404 .search-form:-ms-input-placeholder {
-	    color: #848484;
-	}
-	
-	.error404 .error-404 .search-form .search-submit {
-	    width: 50px;
-	    height: 50px;
-	    opacity: 0;
-	    z-index: 9999;
-	}
-	
-	.error404 .error-404 .search-form label {
-	    width: 100%;
-	    margin-bottom: 0;
-	}
-	
-	.error404 .error-404 .search-form label input {
-	    width: 100%;
-	}
-	
-	.error404 .error-404 .search-form label input:focus {
-	    outline: none;
-	}
-	
-	.error404 .error-404 .back-home {
-	    margin-top: 25px;
-	}
-	
-	.error404 .error-404 .back-home a {
-	    color: #252525;
-	    font-size: 18px;
-	    font-weight: 500;
-	    text-transform: capitalize;
-	}
+
 	
 	.modal {
 	    background-color: rgba(0, 0, 0, 0.9);
@@ -4678,8 +4524,8 @@ border-radius: 20px;
 	    font-size: 12px;
 	}
 	
-	.woocommerce #reviews #review_form .comment-form .comment-form-rating .stars a:hover {
-	    color: #73b21a;
+	.woocommerc3b2e #reviews #review_form .comment-form .comment-form-rating .stars a:hover {
+	    color: #165D31;
 	}
 	
 	.woocommerce #reviews #review_form .comment-form .comment-form-rating .stars a {
@@ -6083,11 +5929,11 @@ border-radius: 20px;
 	}
 	
 	.woocommerce div.product #reviews #review_form .comment-form .comment-form-rating .stars a {
-	    color: #f7c02e;
+	    color: #165D31;
 	}
 	
 	.woocommerce div.product #reviews #review_form .comment-form .comment-form-rating .stars a:hover {
-	    color: #f7c02e;
+	    color: #165D31;
 	}
 	
 	.woocommerce div.product #reviews #comment {
@@ -8606,7 +8452,7 @@ font-weight: 700;
 	.mf-testimonial .testi-rating .rating-content {
 	    position: relative;
 	    font-size: 14px;
-	    color: #ffb600;
+	    color: #165D31;
 	    display: inline-block;
 	    letter-spacing: 5px;
 	    width: 86px;
@@ -9347,19 +9193,6 @@ font-weight: 700;
 	    text-align: right;
 	}
 	
-	.mf-video-banner {
-	    position: relative;
-	    background-color: #252525;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    -webkit-background-size: cover;
-	    background-size: cover;
-	}
-	
-	.mfvdo-imagebg {
-	    min-height: 468px;
-	    background-image: url(../images/bg/video-banner-1.jpg);
-	}
 	
 	.mf-video-banner i {
 	    color: #fff;
