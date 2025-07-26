@@ -2717,7 +2717,10 @@ border-radius: 20px;
 	    -webkit-transition: 0.5s;
 	    transition: 0.5s;
 	}
-	
+	.project-img{
+		width: 100%;
+		height: 250px;
+	}
 	.mf-btn-2:hover,
 	.mf-btn-2:focus,
 	.mf-btn-2:active {
