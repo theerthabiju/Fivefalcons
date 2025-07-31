@@ -926,6 +926,7 @@ padding: 20px;
 }
 .strength-card img{
 	border-radius: 5px;
+	height: 200px;
 }
 /* servicepage */
 .Core{
@@ -3698,7 +3699,6 @@ border-radius: 20px;
 	    content: '';
 	    width: 100%;
 	    height: 100%;
-	    background-color: #000;
 	    opacity: 0;
 	    position: absolute;
 	    top: 0;
