@@ -3685,7 +3685,9 @@ border-radius: 20px;
 	.no-thumb .blog-wrapper {
 	    padding-top: 20px;
 	}
-	
+	.arabic_name{
+		font-size: 26px;
+	}
 	.blog-wrapper .entry-thumbnail {
 	    overflow: hidden;
 	}
